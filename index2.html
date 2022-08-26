@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea HTML_Formularios2 de Elena del Mazo</title>
+</head>
+<body>
+    <form>
+        <!-- Control para indicar fecha -->
+        <fieldset>
+            <input type="date" name="fecha">
+            <br>
+            <br>
+        <!-- Control para elegir ficheros -->    
+            <input type="file" name="archivos">
+            <br>
+            <br>
+        <!-- Radiobuttons -->
+            <label for="amd">AMD</label>
+            <input type="radio" name="procesador" value="procesadoramd">
+            <label for="inteli5">Intel i5</label>
+            <input type="radio" name="procesador" value="procesadorintel_i5">
+            <label for="inteli7">Intel i7</label>
+            <input type="radio" name="procesador" value="procesadorintel_i7">
+            <br>
+            <br>
+        <!-- Cuadros de texto -->
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre">
+            <label for="apellidos">Apellidos</label>
+            <input type="text" name="apellidos">
+            <label for="direccion">Dirección</label>
+            <input type="text" name="direccion">
+            <br>
+            <br>
+        <!-- Control para elegir el color -->
+            <input type="color" name="color" value="#ff0000">
+            <br>
+            <br>
+        <!-- Área de texto que mide 6 filas y 59 columnas con texto dentro" -->
+            <textarea name="textarea" cols="59" rows="6">Utilice este cuadro para escribir</textarea>
+            <br>
+            <br>
+        <!-- Control para indicar la fecha -->
+            <input type="date" name="fecha">
+            <br>
+            <br>
+        <!-- Lista desplegable -->
+            <select name="idioma">
+                <option value="ingles">Inglés</option>
+                <option value="aleman">Alemán</option>
+                <option value="frances">Francés</option>
+            </select>
+            <br>
+            <br>
+        <!-- Control para indicar la hora -->
+            <input type="time" name="time">
+            <br>
+            <br>
+        <!-- Control para elegir ficheros -->
+            <input type="file" name="archivos">
+            <br>
+            <br>
+        <!-- Checkboxes -->
+            <label for="mujer">Mujer</label>
+            <input type="checkbox" name="sexo" value="sexomujer">
+            <label for="hombre">Hombre</label>
+            <input type="checkbox" name="sexo" value="sexohombre">
+        </fieldset>
+    </form>    
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarea HTML_Formularios de Elena del Mazo</title>
+  </head>
+  <body>
+    <form>
+        <!-- Radiobuttons -->
+        <fieldset>
+            <input type="radio" name="idioma" value="idiomaingles">
+            <label for="ingles">Inglés</label>
+            <input type="radio" name="idioma" value="idiomaaleman">
+            <label for="aleman">Alemán</label>
+            <input type="radio" name="idioma" value="idiomafrances">
+            <label for="frances">Francés</label>
+            <br>
+            <br>
+        <!-- Lista desplegable -->
+            <select name="conector">
+                <option value="usb">USB</option>
+                <option value="paralelo">Paralelo</option>
+                <option value="ps2">PS2</option>
+            </select>
+            <br>
+            <br>
+        <!-- Cuadros de texto -->
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre">
+            <label for="apellidos">Apellidos</label>
+            <input type="text" name="apellidos">
+            <br>
+            <br>
+        <!-- Lista desplegable múltiple -->
+            <select name="sexo" multiple>
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+            </select>
+            <br>
+            <br>
+        <!-- Checkboxes -->
+            <label for="mujer">Mujer</label>
+            <input type="checkbox" name="sexo" value="sexomujer">
+            <label for="hombre">Hombre</label>
+            <input type="checkbox" name="sexo" value="sexohombre">
+            <br>
+            <br>
+        <!-- Control para indicar la fecha -->
+            <input type="date" name="fecha">
+        </fieldset>
+    </form>
+  </body>
+</html>
